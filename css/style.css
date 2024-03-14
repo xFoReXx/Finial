@@ -137,7 +137,7 @@ main {
 	margin-bottom: 10px;
 }
 
-.scan {
+.main-scan {
 	height: 700px;
 	margin: 0 0 10px;
 	border: 1px solid #e4e4e4;
@@ -152,11 +152,18 @@ main {
 .table {
 	margin-bottom: 30px;
 }
-
-.description p {
-	margin: 0 0 10px;
+/*  --------------
+		TEST
+	--------------
+*/
+ .description p { 			
+	margin: 0 0 300px;
 	font-size: 18px;
 }
+/*  --------------
+		TEST
+	--------------
+*/
 
 table {
 	border-spacing: 0 1px;
@@ -171,10 +178,6 @@ tr:nth-child(odd) {
 	background-color: #eeeced;
 }
 
-/* SLIDER */
-	.card-group {
-		margin-bottom: 40px;
-	}
 /* Footer */
 
 footer {
