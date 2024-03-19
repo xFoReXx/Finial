@@ -166,9 +166,11 @@ li.active::after {
 /* Main */
 
 main {
+	display: flex;
+	flex-direction: column;
 	padding: 0 20px;
 	margin: 20px auto;
-	width: 1140px;
+	max-width: 1140px;
 }
 
 .title {
@@ -183,10 +185,10 @@ main {
 	font-size: 22px;
 	margin-bottom: 10px;
 	background: #db0b27;
+	max-width: 200px;
 	color: #fff;
 	padding: 10px;
 	border: 3px solid transparent;
-	/* border-radius: 10px; */
 	cursor: pointer;
 	transition: 0.3s;
 }
@@ -285,3 +287,20 @@ footer {
 	transform: translateX(0);
 }
 
+.persons {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 20px;
+}
+
+.person {
+	padding: 10px;
+	font-size: 20px;
+	transition: 0.5s;
+}
+
+.person:hover {
+	color: #db0b27;
+	scale: 1.1;
+}
