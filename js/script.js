@@ -13,7 +13,6 @@ const closeMenuButtonD = document.getElementById('close-menu-btnD')
 const closeMenuButtonM = document.getElementById('close-menu-btnM')
 const input = document.getElementById('searchInput')
 
-
 let mainScanVisible = true
 
 moreScansButton.addEventListener('click', function () {
@@ -90,7 +89,7 @@ document.addEventListener('click', function (event) {
 
 input.addEventListener('keyup', function (event) {
 	if (event.keyCode === 13) {
-		var imageUrl = '/assets/meme.png'
+		var imageUrl = './assets/meme.PNG'
 		var audioUrl = '/music/videoplayback.m4a'
 
 		// Only legend knows \\
