@@ -1,0 +1,35 @@
+To enable users to rotate 3D models on a website, you'll need a tool to render these models in the browser. One popular tool for this purpose is the Three.js library, which allows rendering 3D graphics using WebGL in the browser.
+
+If you'd like to share a 3D model with me to put it on a website, unfortunately, I cannot accept files or process them in real-time. However, I can provide you with instructions on how to do it yourself.
+
+Here's a general guide on how to do it using Three.js:
+
+Prepare the model in Blender:
+
+Import your 3D scan into Blender.
+Ensure your model is properly prepared, correctly meshed, and ready for rendering.
+Export the model from Blender:
+
+Use Blender's export feature to save your model in a format supported by Three.js. The most commonly used format is .glTF (GL Transmission Format).
+Adding the model to the webpage using Three.js:
+
+Include the Three.js library on your webpage. You can either download it directly or use hosted versions.
+Add JavaScript code that loads your 3D model and allows interaction with it, such as rotation.
+
+
+--------------------------------------------------------------------OR---------------------------------------------------------------------------------------------------
+
+
+Preparing a Blender Model for Sketchfab: Ensure your model is ready for sharing, with all textures, materials, and animations if needed.
+
+Creating a Sketchfab Account: If you haven't already, create an account on the Sketchfab website.
+
+Exporting the Model from Blender: In Blender, use the export option to export your model to a format supported by Sketchfab, such as .obj or .fbx. To do this, select the model, then go to the "File" menu -> "Export" and choose the appropriate export format.
+
+Uploading the Model to Sketchfab: After exporting, go to your Sketchfab account and log in. Then use the "Upload" or "Add a model" option to add your 3D model. Follow the on-screen instructions to upload your model.
+
+Configuring Settings: After uploading, you can configure various settings such as thumbnail, description, tags, visibility, interactivity, etc.
+
+Publishing the Model: Once you've configured all the settings, you can publish your model, making it available to other users.
+
+After completing these steps, your Blender 3D model will be available on the Sketchfab platform, and you'll receive a link that you can share or embed on a website.

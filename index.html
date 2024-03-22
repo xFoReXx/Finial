@@ -19,9 +19,11 @@
 			<img src="./assets/corkcitylogo.png" alt="logo corck city council">
 		</a>
 		<p class="text-p">SEARCH</p>
+
 		<i class="fa-solid fa-magnifying-glass nav-icon"></i>
 		<div class="text hidden">
-			<p>Search</p>
+			<p></p>
+			<input type="text" placeholder="Search" id="searchInput" autocomplete="off" formtarget="_blank">
 			<i class="fa-solid fa-magnifying-glass header-icon"></i>
 		</div>
 	</header>
@@ -39,44 +41,74 @@
 	<main>
 		<div class="under-navigation">
 			<ul class="nav-ul">
-				<li class="home"><a href="https://www.corkcity.ie/en/">
-						Home
-					</a></li>
-				<li><a href="https://www.corkcity.ie/en/cork-public-museum/">Cork Public Museum</a></li>
-				<li><a href="https://www.corkcity.ie/en/cork-public-museum/exhibitions/">Exhibitions</a></li>
-				<li><a href="https://www.corkcity.ie/en/cork-public-museum/exhibitions/our-archaeological-collections/">Our
-						Archaeological
-						Collections</a></li>
-				<li class="active"><a
+				<li class="home"><a class="one" href="https://www.corkcity.ie/en/">Home</a></li>
+				<li><a class="two" href="https://www.corkcity.ie/en/cork-public-museum/">Cork Public Museum</a></li>
+				<li><a class="three" href="https://www.corkcity.ie/en/cork-public-museum/exhibitions/">Exhibitions</a>
+				</li>
+				<li><a class="four"
+						href="https://www.corkcity.ie/en/cork-public-museum/exhibitions/our-archaeological-collections/">Our
+						Archaeological Collections</a></li>
+				<li class="active">
+					<a class="five"
 						href="https://www.corkcity.ie/en/cork-public-museum/exhibitions/our-archaeological-collections/pre-history/">Pre-History</a>
 				</li>
 			</ul>
 		</div>
 
 		<h1 class="title">Finial- Church Island</h1>
-		<button class="moreBtn" id="moreBtn">More Scans</button>
+		<div class="btns">
+			<button class="moreBtn" id="moreBtn">More Scans</button>
+			<button class="moreBtnD" id="moreBtnD">Models 3D</button>
+			<button class="moreBtnM" id="moreBtnM">Drawings</button>
+		</div>
 
 		<div id="side-menu" class="hidden-menu hidden">
-			<button id="close-menu-btn" class="closeBtn"></button>
-			<iframe width="49.7%" height="49.7%" frameborder="0" allowfullscreen
-				src="https://scaniverse.com/scan/5rjllvc3ir2svard?embed=1"></iframe>
+			<button id="close-menu-btn" class="closeBtn cls-btn"></button>
+			<iframe class="scan-model" title="Finial Reconstruction Test 1" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/b3b6911a52ea4109b9eb26c1ed5d8ced/embed"></iframe>
 			<iframe width="49.7%" height="49.7%" frameborder="0" allowfullscreen
 				src="https://scaniverse.com/scan/llvzx37c3q6z7tbe?embed=1"></iframe>
 			<iframe width="49.7%" height="49.7%" frameborder="0" allowfullscreen
 				src="https://scaniverse.com/scan/quc6b4zodiviweup?embed=1"></iframe>
 			<iframe width="49.7%" height="49.7%" frameborder="0" allowfullscreen
 				src="https://scaniverse.com/scan/s32giydlwwq3sdkw?embed=1"></iframe>
+		</div>
 
+		<div id="side-menuD" class="hidden-menuD hidden">
+			<button id="close-menu-btnD" class="closeBtnD cls-btn"></button>
+			<iframe width="1098" height="798" src="https://www.youtube.com/embed/TUZ_aub6wTU" frameborder="0"
+				allowfullscreen></iframe>
+		</div>
+
+		<div id="side-menuM" class="hidden-menuM hidden">
+			<button id="close-menu-btnM" class="closeBtnM cls-btn"></button>
+			<img class="drawings-img" src="./img/1jpg.jpg" alt="">
+			<img class="drawings-img" src="./img/2jpg.jpg" alt="">
+			<img class="drawings-img" src="./img/3jpg.jpg" alt="">
+			<img class="drawings-img" src="./img/4jpg.jpg" alt="">
+			<img class="drawings-img" src="./img/5jpg.jpg" alt="">
+			<img class="drawings-img" src="./img/7jpg.jpg" alt="">
+			<img class="drawings-img" src="./img/DrewnianyKosciolek.jpg" alt="">
+			<img class="drawings-img" src="./img/dziadekdzadkujedziadostwo.jpg" alt="">
+			<img class="drawings-img" src="./img/Finial-Drawing.jpg" alt="">
+			<img class="drawings-img" src="./img/Illustration3.jpg" alt="">
+			<img class="drawings-img" src="./img/jason.jpg" alt="">
+			<img class="drawings-img" src="./img/KamienMorze.jpg" alt="">
+			<img class="drawings-img" src="./img/Kelly.png" alt="">
+			<img class="drawings-img" src="./img/KosciolDrewnianydach.jpg" alt="">
+			<img class="drawings-img" src="./img/KosciolDrewnianyDachCiao.jpg" alt="">
+			<img class="drawings-img" src="./img/KosciolDrewnianyDachCiaoCiao.jpg" alt="">
+			<img class="drawings-img" src="./img/KosciolKamienny.jpg" alt="">
+			<img class="drawings-img" src="./img/mapa.jpg" alt="">
+			<img class="drawings-img" src="./img/Original-Finial.jpg" alt="">
+			<img class="drawings-img" src="./img/PanStawiaFinial.jpg" alt="">
+			<img class="drawings-img" src="./img/port.jpg" alt="">
+			<img class="drawings-img" src="./img/SandStone-Finial.jpg" alt="">
 		</div>
 
 		<div class="main-scan">
 			<iframe width="100%" height="100%" frameborder="0" allowfullscreen
 				src="https://scaniverse.com/scan/p3yz2xpmhg4ugdij?embed=1"></iframe>
-
-			<!-- <img src="./img/SandStone-Finial.jpg" alt="" class="first-img">
-				<img src="./img/Finial-Drawing.jpg" alt="" class="second-img"> -->
 		</div>
-
 
 		<div class="table">
 			<table>
@@ -137,75 +169,108 @@
 
 		<div class="model"></div>
 
-		
-		
+
+
 		<div class="description">
-			<img src="./img/1jpg.jpg" alt="">
-			<img src="./img/2jpg.jpg" alt="">
-			<img src="./img/3jpg.jpg" alt="">
-			<img src="./img/4jpg.jpg" alt="">
-			
-			<p>In Ireland, there are early medieval monasteries dotted all over the island. Some lie in ruins, while
-				some are still in use. Dating from the sixth century onwards, some monasteries played important roles
-				within the community as places of teaching and worship. Others were strategically built in certain
-				locations, such as woods or small islands, to allow the monks live quiet lives of spiritual reflection.
-			</p>
-
-			<img src="./img/5jpg.jpg" alt="">
-			<img src="./img/6jpg.jpg" alt="">
-			<img src="./img/7jpg.jpg" alt="">
-			<img src="./img/1jpg.jpg" alt="">
-
-			<p>Church Island, a small, exposed island in Valentia Harbour, Co. Kerry, is home to an important early
-				medieval monastic settlement. During excavations, undertaken by Michael J. O’Kelly in the 1950s, it was
-				found that the island featured a small wooden church. This was replaced by a stone church, which still
-				stands today. The excavations also found evidence of a round house, a clochán or bee-hive hut, and
-				another rectangular house, and a cemetery. It is difficult to ascertain whether this site was a
-				monastery or a community church which would have served the local area, though the burial of a woman on
-				the island might suggest the latter.</p>
-
-			<img src="./img/2jpg.jpg" alt="">
-			<img src="./img/3jpg.jpg" alt="">
-			<img src="./img/4jpg.jpg" alt="">
-			<img src="./img/5jpg.jpg" alt="">
-
-			<p>Early wooden churches, such as the example on Church Island, were built of oak and had thatched roofs. In
-				the annals the Irish word dairthech is commonly used to describe these building: dair means oak, while
-				thech is an early version of teach, meaning house. When these buildings were replaced in stone some of
-				their wooden features, though unnecessary in stone buildings, were copied as skeuomorphs.</p>
-
-			<img src="./img/6jpg.jpg" alt="">
-			<img src="./img/7jpg.jpg" alt="">
-			<img src="./img/1jpg.jpg" alt="">
-			<img src="./img/2jpg.jpg" alt="">
+			<div class="drawings">
+				<img src="./img/1jpg.jpg" alt="">
+				<img src="./img/SandStone-Finial.jpg" alt="">
+				<img src="./img/2jpg.jpg" alt="">
+			</div>
 
 			<p>The decorated stone finial from Church Island is a skeuomorph. It is a copy of the finial feature of a
 				timber roof, where the two end-rafters were overlapped and joined together. The bottom section, or
 				tenon, functioned as a means to hold the finial in place atop the stone roof. Such a finial served no
 				practical function on a stone roof, so it seems that the builders of this church wished to create an
-				architectural link with the form of the earlier wooden church.</p>
+				architectural link with the form of the earlier wooden church.
+			</p>
+			<div class="drawings">
+				<img src="./img/KosciolDrewnianyDachCiaoCiao.jpg" alt="">
+				<img src="./img/KosciolDrewnianydach.jpg" alt="">
+				<img src="./img/KosciolDrewnianyDachCiao.jpg" alt="">
+			</div>
 
-			<img src="./img/3jpg.jpg" alt="">
-			<img src="./img/4jpg.jpg" alt="">
-			<img src="./img/5jpg.jpg" alt="">
-			<img src="./img/6jpg.jpg" alt="">
+			<p>Church Island, a small, exposed island in Valentia Harbour, Co. Kerry, is home to an important early
+				medieval monastic settlement. During excavations, undertaken by Michael J. O’Kelly in the 1950s, it was
+				found that the island featured a small wooden church. This was replaced by a stone church, which still
+				stands today. The excavations also found evidence of a roundhouse, a clochán or bee-hive hut, and
+				another rectangular house, and a cemetery. It is difficult to ascertain whether this site was a
+				monastery or a community church which would have served the local area, though the burial of a woman on
+				the island might suggest the latter. Early wooden churches, such as the example on Church Island, were
+				built of oak and had thatched roofs. In the annals the Irish word dairthech is commonly used to describe
+				these building: dair means oak, while thech is an early version of teach, meaning house. When these
+				buildings were replaced in stone some of their wooden features, though unnecessary in stone buildings,
+				were copied as skeuomorphs.</p>
 
-			<p>The finial is made from micaceous sandstone, green in colour. It is one of the few finials of this type
-				which features carved decoration. Although the carving is worn and difficult to distinguish, it is
-				evident that the main figure is a person with raised arms. This is probably an orans, the term used to
-				describe an early medieval position of prayer. On either side of the orans there are poorly preserved
-				animal-heads and it has been suggested that these may represent seals of the type commonly found in the
-				waters surrounding the island.</p>
+			<div class="drawings">
+				<img src="./img/dziadekdzadkujedziadostwo.jpg" alt="">
+				<img src="./img/Jason.jpg" alt="">
+				<img src="./img/PanStawiaFinial.jpg" alt="">
+
+			</div>
+
+
+			<p>Carved stone monuments are among our most tangible links to the distant past. From the La Tène-decorated
+				examples of the Late Iron Age (AD 1–400), to the cross-slabs and high crosses of the early medieval
+				period (AD 400–1200), people in late prehistoric and early historic Ireland used stone carving to
+				express their values and identities as skilled craftspeople and as members of kin-groups and wider
+				communities. Stone was carved to preserve the memory of revered ancestors and deceased loved ones, to
+				assert ownership of tracts of land, and to serve as focal points for communal rituals and devotions.
+				These monuments have huge potential to enhance our understanding and enjoyment of Ireland’s past and its
+				links to the wider world, for some designs indicate connections across Europe and as far afield as the
+				Middle East. Medieval masons used a variety of different tools to cut their stones. Axes, points, and
+				chisels would be used for the rough and fine carving, with drills occasionally being employed for
+				undercutting (especially in sculpture). Designs would be imposed on the surface of the block using a
+				series of incised lines.</p>
+
+			<div class="drawings">
+				<img src="./img/Illustration3.jpg" alt="">
+				<img src="./img/KosciolKamienny.jpg" alt="">
+				<img src="./img/mapa.jpg" alt="">
+
+			</div>
+			<p>Was it the exposed nature of the island which led to the building of more
+				staunch and durable structures than the earlier ones had been ? There is some
+				reason to think, though again there is no absolute proof, that the oratory was the
+				first of the buildings to be planned on a more impressive scale. It has been
+				mentioned above that Church Island consists entirely of a spur of greenstone
+				diorite which rises out of the sea. No part of the island is formed of any kind of
+				sedimentary rock. It is, therefore, rather surprising to find that the stone
+				oratory is built entirely of purple slate, every bit of which must have been
+				imported from Valencia Island the nearest point of which is 1-5 km., (1 mile
+				approximately) to the south-west, or from the southern side of Doulus Head,
+				about the same distance to the north. To quarry such a quantity of large slabs
+				of stone and to bring them either by boat or raft to Church Island and land them
+				there, seems to argue for good organization and help from the neighbourhood.</p>
+
+
+			<div class="drawings">
+				<img src="./img/KamienMorze.jpg" alt="">
+				<img src="./img/port.jpg" alt="">
+				<img src="./img/Kelly.png" alt="">
+			</div>
+			<p>Two finials have survived and though neither of them was found in or near
+				the ruins of the oratory it is presumed that both originally adorned its roof ridge.
+				The decorated finial was found on the sandy bed of the sea to
+				the east of the island on an occasion several years ago when there was ann except
+				tionally low tide. How it came to be in the water will never be known, but it may
+				have been taken from the island for use as a boat anchor because of the ease with
+				which a rope could be tied to it. It if was in the sea for a long time it must have
+				been embedded in the sand for though it is heavily weathered and has suffered
+				other damage, it shows no signs of the rolling and smoothingh one associates
+				with water action.</p>
+
+
 		</div>
 		</div>
 	</main>
 	<hr>
-		<div class="persons">
-<div class="person">Kacper Kwiatek</div>
-<div class="person">Marcel Wróblewski</div>
-<div class="person">Jason Burns</div>
-<div class="person">Mateusz Garbina</div>
-		</div>
+	<div class="persons">
+		<div class="person">Kacper Kwiatek</div>
+		<div class="person">Marcel Wróblewski</div>
+		<div class="person">Jason Burns</div>
+		<div class="person">Mateusz Garbina</div>
+	</div>
 	<footer>
 		<p>
 			&copy; 2024 Mateusz Garbina
