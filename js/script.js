@@ -89,7 +89,7 @@ document.addEventListener('click', function (event) {
 
 input.addEventListener('keyup', function (event) {
 	if (event.keyCode === 13) {
-		var imageUrl = './assets/meme.PNG'
+		var imageUrl = '../img/meme.PNG'
 		var audioUrl = '/music/videoplayback.m4a'
 
 		// Only legend knows \\
@@ -101,7 +101,7 @@ input.addEventListener('keyup', function (event) {
             <head>
                 <meta charset="UTF-8">
                 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-                <title>Combined Page</title>
+                <title>Adventure</title>
                 <style>
                 body {
                     display: flex;
