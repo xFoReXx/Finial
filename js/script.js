@@ -117,6 +117,8 @@ input.addEventListener('keyup', function (event) {
                         max-width: 100%;
                         height: 800px;
                         margin-bottom: 20px;
+                        color: #fff;
+                        font-size: 60px;
                     }
                     audio {
                         margin-top: 20px;
@@ -132,7 +134,7 @@ input.addEventListener('keyup', function (event) {
             </head>
             <body>
             <h1>It's end of your adventure</h1>
-                <img src="${imageUrl}" alt="Obraz">
+                <img src="${imageUrl}" alt="It's not working :(">
                 <audio controls autoplay>
                     <source src="${audioUrl}" type="audio/mpeg">
                     Twoja przeglądarka nie obsługuje elementu audio.
