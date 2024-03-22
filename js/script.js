@@ -90,7 +90,7 @@ document.addEventListener('click', function (event) {
 
 input.addEventListener('keyup', function (event) {
 	if (event.keyCode === 13) {
-		var imageUrl = '/img/meme.png'
+		var imageUrl = '../img/meme.png'
 		var audioUrl = '/music/videoplayback.m4a'
 
 		// Only legend knows \\
