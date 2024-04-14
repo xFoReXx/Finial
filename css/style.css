@@ -151,7 +151,6 @@ ul :nth-child(5) {
 .nav-ul {
 	width: 800px;
 	display: flex;
-	justify-content: space-around;
 	text-decoration: none;
 	list-style-type: none;
 }
@@ -213,12 +212,41 @@ main {
 	max-width: 1140px;
 }
 
+.rosscarbery {
+	font-size: 24px;
+	padding-top: 50px;
+	font-weight: bold;
+}
+
+.rosscarbery a {
+	position: relative;
+	text-decoration: none;
+	color: #db0b27;
+	transition: color 0.3s;
+}
+
+.rosscarbery a::before {
+	content: '';
+	position: absolute;
+	height: 2px;
+	width: 100%;
+	left: 0;
+	bottom: 0;
+	background-color: #db0b27;
+	transform: scaleX(0);
+	transition: 0.3s;
+}
+
+.rosscarbery a:hover::before {
+	transform: scaleX(1);
+}
+
 .title {
 	font-size: 45px;
 	margin-bottom: 30px;
 	text-transform: capitalize;
 	color: #333;
-	padding-top: 75px;
+	padding-top: 50px;
 }
 
 .moreBtn {
@@ -380,7 +408,7 @@ footer {
 	color: #db0b27;
 }
 
-/* TEST */
+/* Big Red Buttons */
 #side-menu {
 	position: relative;
 	top: 0;
