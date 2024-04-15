@@ -446,12 +446,8 @@ footer {
 	font-size: 20px;
 }
 
-.icon-box {
-	margin-left: 20px;
-}
-
 .icon-box a {
-	margin: 0 5px;
+	margin: 0px 5px;
 	color: #ddd;
 	font-size: 30px;
 	transition: color 0.3s;
