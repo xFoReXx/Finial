@@ -213,6 +213,7 @@ main {
 }
 
 .rosscarbery {
+	position: relative;
 	font-size: 24px;
 	padding-top: 50px;
 	font-weight: bold;
@@ -239,6 +240,58 @@ main {
 
 .rosscarbery a:hover::before {
 	transform: scaleX(1);
+}
+
+/* Tooltip */
+
+.tooltip {
+	position: relative;
+	display: inline-block;
+}
+
+.tooltip .tooltip-right {
+	transition: 0.2s;
+}
+
+.tooltip::before {
+	display: none;
+	position: absolute;
+	width: 60%;
+	padding: 0.5em 1em;
+	border-radius: 0px 8px 8px 0px;
+	background-color: #db0b27;
+	font-size: 14px;
+	
+}
+
+.tooltip::after {
+	display: none;
+	position: absolute;
+	width: 0;
+	height: 0;
+	border-top: 15px solid transparent;
+	border-bottom: 15px solid transparent;
+	border-right: 14px solid #db0b27;
+}
+
+.tooltip:hover::before {
+	display: block;
+}
+
+.tooltip:hover::after {
+	display: block;
+}
+
+.tooltip-right::after {
+	content: '';
+	left: 101.4%;
+	top: 0%;
+}
+
+.tooltip-right::before {
+	content: 'Other Stone';
+	left: 111%;
+	color: #fff;
 }
 
 .title {
