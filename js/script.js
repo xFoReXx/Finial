@@ -89,12 +89,6 @@ document.addEventListener('click', function (event) {
 
 input.addEventListener('keyup', function (event) {
 	if (event.keyCode === 13) {
-		var imageUrl = '../img/meme.PNG'
-		var audioUrl = '/music/videoplayback.m4a'
-
-		// Only legend knows \\
-		// var audioUrl = '/music/too-fare.m4a'
-
 		var combinedHtml = `
             <!DOCTYPE html>
             <html lang="en">
@@ -112,33 +106,23 @@ input.addEventListener('keyup', function (event) {
                     background-color: #333;
                     padding: 20px;
                 }
-                    img {
-                        position: relative;
+                    iframe {
                         max-width: 100%;
-                        height: 800px;
-                        margin-bottom: 20px;
-                        color: #fff;
-                        font-size: 60px;
-                    }
-                    audio {
-                        margin-top: 20px;
-                        width: 100%;
+                        margin-top: 80px;
                     }
                     h1 {
                         position: absolute;
                         font-size: 100px;
                         z-index: 1000;
                         color: #fff;
+                        top: -10px;
+                        margin: 0px;
                     }
                 </style>
             </head>
             <body>
             <h1>It's end of your adventure</h1>
-                <img src="${imageUrl}" alt="It's not working :(">
-                <audio controls autoplay>
-                    <source src="${audioUrl}" type="audio/mpeg">
-                    Twoja przeglądarka nie obsługuje elementu audio.
-                </audio>
+            <iframe width="1098" height="798" src="https://www.youtube.com/embed/V4-7VjGr3d8?si=7BoM4zYzBxT_RGfB" frameborder="0" allowfullscreen></iframe>
             </body>
             </html>
         `
