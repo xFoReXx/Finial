@@ -271,7 +271,7 @@ main {
 	height: 0;
 	border-top: 15px solid transparent;
 	border-bottom: 15px solid transparent;
-	border-right: 14px solid #db0b27;
+	border-right: 15px solid #db0b27;
 }
 
 .tooltip:hover::before {
@@ -286,6 +286,7 @@ main {
 	content: '';
 	left: 102%;
 	top: 0%;
+	margin-left: -2px;
 }
 
 .tooltip-right::before {
